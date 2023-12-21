@@ -1,0 +1,10 @@
+GET http://localhost:3000
+###
+POST http://localhost:3000/app
+Authorization: DEVCREW-BACKEND-TEST
+Content-Type: application/json
+
+{
+    "a": 7,
+    "b": -5
+}
